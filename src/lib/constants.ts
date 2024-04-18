@@ -7,7 +7,7 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/d-hung-nguyen',
+ 
   linkedin: 'https://www.linkedin.com/in/nd-hung/',
   mail: 'mailto:nd.hung@me.com',
   medium: '/',
@@ -19,7 +19,7 @@ export const SITE: Site = {
   TITLE: 'Astro Sphere',
   DESCRIPTION:
     'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn',
+  AUTHOR: 'Hung Nguyen',
 }
 
 // Work Page
@@ -49,94 +49,65 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Certificate Fullstack Software Development',
-    institution: 'Neuefische',
-    link: '(Intensive course) in JavaScript, React, Astro, MongoDB, and SQL.',
-    date: 'Jan - Apr 2024',
+    title: 'PhD, Chemistry, Materials Science',
+    institution: 'Syddansk Universitet - University of Southern Denmark',
+    link: 'Activities and societies: Durability studies with PEM fuel cell electrocatalysts, characterization of corrosion problems associated with the PEM fuel cell operation.',
+    date: '2005 - 2010',
   },
   {
-    title: 'Bachelor\'s Degree',
-    institution: 'Foreign Trade University',
-    link: 'Business Administration - BBA, Business Administration and Management, General',
-    date: '2001 - 2005',
+    title: 'Erasmus Student',
+    institution: 'Vrije Universiteit Brussel',
+    link: 'Activities and societies: Determination of trace metal profiles in porewaters of riverine sediments by DGT and DET gel technique.',
+    date: '2005 - 2005',
   },
   {
-    title: 'Bachelor\'s Degree',
-    institution: 'Phuong Dong University',
-    link: 'in English, Han-nom and Far East Culture.',
-    date: '2001 - 2005',
+    title: 'MSc, Environmental Sciences-Chemistry',
+    institution: 'Debreceni Egyetem',
+    link: 'Activities and societies: The reconstruction of the evolution of Tisza oxbows based on the element composition of their sediment.',
+    date: '2000 - 2005',
   },
-]
+] 
 
 export const EXPERIENCE = [
   {
-    company: 'Kerzner International - Regional Office',
-    location: 'Frankfurt am Main, Germany',
-    position: 'Sales and Marketing',
-    start: 'Sep 2006',
-    end: 'Nov 2023',
+    company: 'Greenerity GmbH',
+    location: 'Alzenau in Unterfranken, Bavaria, Germany',
+    position: 'Team Leader PEM Fuel Cell Research',
+    start: 'Apr 2023',
+    end: 'Present',
     tasks: [
-      'Responsible for developing and implementing marketing strategies to increase brand awareness and revenue in the DACH region.',
+      'Leading the research team in PEM fuel cell technology to innovate and enhance product efficiency and sustainability.',
     ],
   },
   {
-    company: 'One&Only The Palm, Dubai',
-    location: 'Dubai, UAE',
-    position: 'Reservation and Revenue Manager',
-    start: 'Sep 2010',
-    end: 'Feb 2015',
+    company: 'Greenerity GmbH',
+    location: 'Hanau Am Main Area, Germany',
+    position: 'Project Manager - Product Development & Research',
+    start: 'Jan 2018',
+    end: 'Present',
     tasks: [
-      'Leading the reservation team and strategically planning revenue optimization for a successful hotel opening.',
+      'Managing product development projects focusing on pioneering research and practical application in renewable energy technologies.',
     ],
   },
   {
-    company: 'One&Only Royal Mirage, Dubai',
-    location: 'Dubai, UAE',
-    position: 'Reservation and Revenue Coordinator',
-    start: 'Jun 2006',
-    end: 'Aug 2009',
+    company: 'Greenerity GmbH',
+    location: 'Hanau Am Main Area, Germany',
+    position: 'Process Development Researcher',
+    start: 'Jan 2016',
+    end: 'Present',
     tasks: [
-      'Coordinating and monitoring daily reservation operations and revenue reports.',
+      'Conducting advanced research and process development to improve production methodologies and increase efficiency.',
     ],
   },
   {
-    company: 'Velaa Private Island, Maldives',
-    location: 'Maldives',
-    position: 'Project Consultant, Reservations and Revenue Management',
-    start: 'Mar 2015',
-    end: 'Jul 2015',
+    company: 'SolviCore GmbH & Co. KG',
+    location: 'Hanau Am Main Area, Germany',
+    position: 'Process Development Researcher',
+    start: 'Apr 2014',
+    end: 'Jan 2016',
     tasks: [
-      'Consulting to optimize booking systems and revenue strategies.',
+      'Developing new processes and refining existing ones in the field of solid oxide fuel cells to enhance performance and cost-effectiveness.',
     ],
-  },
-  {
-    company: 'RCI, Schliersee',
-    location: 'Schliersee, Germany',
-    position: 'Reservation and Front Office Manager',
-    start: 'Mar 2014',
-    end: 'Mar 2015',
-    tasks: [
-      'Managing the front office and reservations, increasing customer satisfaction and loyalty.',
-    ],
-  },
-  {
-    company: 'InterContinental Asiana Saigon',
-    location: 'Ho Chi Minh City, Vietnam',
-    position: 'Assistant Reservation Manager',
-    start: 'Aug 2009',
-    end: 'Sep 2010',
-    tasks: [
-      'Supporting the establishment of efficient reservation processes for the market launch.',
-    ],
-  },
-  {
-    company: 'Sofitel Legend Metropole, Hanoi',
-    location: 'Hanoi, Vietnam',
-    position: 'Reservation Agent',
-    start: 'May 2005',
-    end: 'Jun 2006',
-    tasks: [
-      'Handling reservations and customer inquiries, ensuring high quality of service.',
-    ],
-  },
+  }
+
 ]
