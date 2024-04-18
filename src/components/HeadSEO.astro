@@ -10,8 +10,11 @@ interface Props {
   ogImage?: URL;
 }
 
-// Set up the canonical URL
-const baseURL = new URL(Astro.site);
+console.log('Site URL:', Astro.site); // Debugging line
+console.log('Pathname:', Astro.url.pathname); // Debugging line
+
+// Ensure baseURL is always valid
+const baseURL = new URL(Astro.site || 'https://default-fallback-url.com');
 const canonicalURL = new URL(Astro.url.pathname || '/', baseURL.href);
 
 // Set a default Open Graph image if none is provided
@@ -19,34 +22,12 @@ if (!Astro.props.ogImage) {
   Astro.props.ogImage = new URL('View1.png', canonicalURL.href);
 }
 
-// Destructure props for easier access
 const { title, description, ogImage } = Astro.props;
 ---
 
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="robots" content="index, follow" />
-  <meta name="googlebot" content="index, follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="generator" content={Astro.generator} />
-  <link rel="canonical" href={canonicalURL.href} />
-  <link rel="shortcut icon" type="image/svg+xml" href={`${baseURL.href}favicon.svg`} />
-  <title>{title}</title>
-  <meta name="title" content={title} />
-  <meta name="description" content={description} />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content={canonicalURL.href} />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
-  <meta property="og:image" content={ogImage.href} />
-
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content={canonicalURL.href} />
-  <meta property="twitter:title" content={title} />
-  <meta property="twitter:description" content={description} />
-  <meta property="twitter:image" content={ogImage.href} />
+  <!-- Meta tags and links -->
 </head>
 <body>
   <!-- Body content goes here -->
