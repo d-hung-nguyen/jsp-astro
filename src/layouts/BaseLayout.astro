@@ -4,6 +4,7 @@ import HeadSEO from '../components/HeadSEO.astro'
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
 import Technologies from '../components/sections/Technologies.astro'
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 interface Props {
   title?: string | undefined
@@ -12,14 +13,17 @@ interface Props {
 }
 
 const { title, description, ogImage } = Astro.props
+
 ---
 
 <html lang="en">
+  <SpeedInsights />
   <head>
     <HeadSEO title={title} description={description} ogImage={ogImage} />
     <ViewTransitions />
   </head>
   <body class="min-h-screen bg-background font-sans antialiased">
+  
     <Technologies />
     <div class="flex flex-col items-center justify-center">
       <Header />
@@ -28,3 +32,6 @@ const { title, description, ogImage } = Astro.props
     </div>
   </body>
   </html>
+
+
+  
