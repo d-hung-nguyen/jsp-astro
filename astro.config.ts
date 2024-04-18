@@ -14,9 +14,8 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    output: 'server',
-  adapter: vercel({
-    webAnalytics: { enabled: true }
-  }),
+    vercel({
+      webAnalytics: { enabled: true }
+    }),
   ],
 })
