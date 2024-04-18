@@ -58,13 +58,13 @@ export const STUDIES = [
     title: 'Bachelor-Abschluss',
     institution: 'Foreign Trade University',
     link: 'Bachelor of Business Administration - BBA, Betriebswirtschaft und Management, Allgemei',
-    date: '2021 - 2025',
+    date: '2001 - 2005',
   },
   {
     title: 'Bachelor-Abschluss',
     institution: 'Phuong Dong University',
     link: 'Bachelor of Arts in Englisch, Han-nom und Kultur vom Fernen Osten.',
-    date: '2021 - 2025',
+    date: '2001 - 2005',
   },
  
 ]
