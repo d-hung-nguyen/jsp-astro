@@ -1,30 +1,51 @@
 ---
 import Card from '../Card.astro'
 import { LINKS } from '../../lib/constants'
+import { buttonVariants } from '../ui/button'
 ---
 
 <Card>
   <div class="h-full">
-    <header class="flex items-center">
+    <header class="flex justify-start ">
       <h1 class="text-xl font-bold text-foreground">
         Let's start working together!
       </h1>
     </header>
-    <address class="mt-4 flex flex-col">
-      <h2 class="text-gray-500"></h2>
-      <p>nd.hung@me.com</p>
-      <p>Frankfurt am Main, Germany</p>
-    </address>
-    <div class="mt-4 flex w-fit flex-col">
-      <h2 >
-      <ul>
-        <li>
-          <a href={LINKS.linkedin} target="_blank">Linkedin</a>
-        </li>
-        <li>
-          <a href={LINKS.github} target="_blank">Github</a>
-        </li>
-      </ul>
-    </div>
+    <div class="mt-4 flex row-auto ">
+      <h2 class="text-gray-500">
+
+        <p>nd.hung@me.com</p>
+        <p>Frankfurt am Main, Germany</p>
+      </address>
+      <address class="mt-4 flex flex-col">
+      </h2>
+        <span class="flex-row mt-4">
+        <a
+        href="mailto:nd.hung@me.com"
+        target="_blank"
+        rel="noreferrer"
+        class={buttonVariants({ variant: 'outline' })}
+        >
+        Email
+      </a>
+      <a
+      href="https://www.linkedin.com/in/nd-hung/"
+      target="_blank"
+      rel="noreferrer"
+      class={buttonVariants({ variant: 'outline' })}
+      >
+      LinkedIn
+    </a>
+    <a
+    href="https://github.com/d-hung-nguyen"
+    target="_blank"
+    rel="noreferrer"
+    class={buttonVariants({ variant: 'outline' })}
+    >
+    GitHub
+  </a>
+  
+</span>
+</div>
   </div>
 </Card>
