@@ -49,25 +49,25 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Zertifikat in Fullstack-Software-Entwicklung',
+    title: 'Certificate Fullstack Software Development',
     institution: 'Neuefische',
-    link: 'Intensivkurs in JavaScript, React, Astro, MongoDB und SQL.',
+    link: '(Intensive course) in JavaScript, React, Astro, MongoDB, and SQL.',
     date: 'Jan - Apr 2024',
   },
   {
-    title: 'Bachelor-Abschluss',
+    title: 'Bachelor\'s Degree',
     institution: 'Foreign Trade University',
-    link: 'Bachelor of Business Administration - BBA, Betriebswirtschaft und Management, Allgemei',
+    link: 'Business Administration - BBA, Business Administration and Management, General',
     date: '2001 - 2005',
   },
   {
-    title: 'Bachelor-Abschluss',
+    title: 'Bachelor\'s Degree',
     institution: 'Phuong Dong University',
-    link: 'Bachelor of Arts in Englisch, Han-nom und Kultur vom Fernen Osten.',
+    link: 'in English, Han-nom and Far East Culture.',
     date: '2001 - 2005',
   },
- 
 ]
+
 export const EXPERIENCE = [
   {
     company: 'Kerzner International - Regional Office',

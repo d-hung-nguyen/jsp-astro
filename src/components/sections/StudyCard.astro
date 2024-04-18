@@ -1,13 +1,12 @@
 ---
 import Card from '../Card.astro'
-import { Button } from '../ui/button'
 import { STUDIES } from '../../lib/constants'
 ---
 
 <Card colSpan="md:col-span-2" rowSpan="md:row-span-1" title="Studies">
   <div class="mt-2 space-y-4">
     {
-      STUDIES.slice(0, 6).map((study) => (
+      STUDIES.slice(0, 3).map((study) => (
         <div>
           <h3 class="text-lg font-semibold"> {study.institution}</h3>
           {study.title} in {study.link}
