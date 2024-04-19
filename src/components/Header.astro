@@ -1,7 +1,6 @@
 ---
 import { buttonVariants } from '../components/ui/button'
 import { ModeToggle } from '../components/ui/ThemeToggle'
-
 ---
 
 <script is:inline>
@@ -25,29 +24,27 @@ import { ModeToggle } from '../components/ui/ThemeToggle'
     class="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0"
   >
     <div class="flex gap-6 md:gap-10">
-     
-        <span class="inline-block font-bold">JSP</span>
-  
+      <span class="inline-block font-bold">JSP</span>
     </div>
     <div class="flex flex-1 items-center justify-end space-x-4">
       <nav class="flex items-center space-x-1">
         <a
-        href="mailto:spederj@gmail.com"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants({ variant: 'ghost' })}
-      >
-        Email
-      </a>
+          href="mailto:spederj@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          class={buttonVariants({ variant: 'ghost' })}
+        >
+          Email
+        </a>
         <a
-        href="https://www.linkedin.com/in/jozsef-speder-99a57217/"
-        target="_blank"
-        rel="noreferrer"
-        class={buttonVariants({ variant: 'ghost' })}
-      >
-        LinkedIn
-      </a>
-        
+          href="https://www.linkedin.com/in/jozsef-speder-99a57217/"
+          target="_blank"
+          rel="noreferrer"
+          class={buttonVariants({ variant: 'ghost' })}
+        >
+          LinkedIn
+        </a>
+
         <ModeToggle transition:persist client:load />
       </nav>
     </div>

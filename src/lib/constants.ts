@@ -7,7 +7,6 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
- 
   linkedin: 'https://www.linkedin.com/in/nd-hung/',
   mail: 'mailto:nd.hung@me.com',
   medium: '/',
@@ -66,7 +65,7 @@ export const STUDIES = [
     link: 'Activities and societies: The reconstruction of the evolution of Tisza oxbows based on the element composition of their sediment.',
     date: '2000 - 2005',
   },
-] 
+]
 
 export const EXPERIENCE = [
   {
@@ -108,6 +107,5 @@ export const EXPERIENCE = [
     tasks: [
       'Developing new processes and refining existing ones in the field of solid oxide fuel cells to enhance performance and cost-effectiveness.',
     ],
-  }
-
+  },
 ]
